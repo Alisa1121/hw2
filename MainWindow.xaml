@@ -1,0 +1,17 @@
+﻿<Window x:Class="_13.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_13"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="請輸入一個正整數N:" HorizontalAlignment="Left" Margin="143,107,0,0" VerticalAlignment="Top" FontSize="16" Foreground="#FFFE22FB"/>
+        <TextBox x:Name="textbox1" HorizontalAlignment="Left" Margin="298,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="241" FontSize="16" Background="#FFA7F9D5" BorderBrush="#FFA7F9D5"/>
+        <Button Content="結果" HorizontalAlignment="Left" Margin="546,109,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.135,-0.038" FontSize="16" Background="#FFF0DF8A" BorderBrush="#FFF0DF8A" Foreground="#FFBE8211" Click="Button_Click"/>
+        <TextBox x:Name="textbox2" HorizontalAlignment="Left" Margin="143,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="439" FontSize="16" Background="#FF86B2F9" BorderBrush="#FF86B2F9"/>
+        <TextBox x:Name="textbox3" HorizontalAlignment="Left" Margin="143,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="439" Height="209" FontSize="16" Background="#FF8E3FEB" BorderBrush="#FF8E3FEB"/>
+
+    </Grid>
+</Window>
